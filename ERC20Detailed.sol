@@ -6,9 +6,9 @@ import "./IERC20.sol";
  * @dev Optional functions from the ERC20 standard.
  */
 contract ERC20Detailed is IERC20 {
-    string private _name;
-    string private _symbol;
-    uint8 private _decimals;
+    string private _name = HYDROSWAP;
+    string private _symbol = HSWAP;
+    uint8 private _decimals = 18;
 
     /**
      * @dev Sets the values for `name`, `symbol`, and `decimals`. All three of
